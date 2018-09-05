@@ -23,6 +23,18 @@ RewriteRule \.md$ /path/to/apache-php-markdown/render.php
 
 Reload Apache, and now when you try to access a \*.md file, instead of plain text, you will see beautiful HTML.
 
+## Add \<title\> tag to your pages
+
+Save the following at the top of your \*.md file to give it a title tag:
+
+```markdown
++++
+title = "Hello, world!"
++++
+
+rest of markdown document here
+```
+
 ## Can't use PHP?
 
 Check out [my Gist](https://gist.github.com/sffc/4789c562f636260a49f9e6bd26f39557) for how to set this up with client-side rendering.
