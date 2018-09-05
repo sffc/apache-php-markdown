@@ -1,0 +1,15 @@
+{
+    "name": "sffc/apache-php-markdown",
+    "description": "Serve *.md files as HTML rendered on the server side",
+    "require": {
+        "cebe/markdown": "^1.2",
+        "hyn/frontmatter": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shane F. Carr",
+            "email": "shane@sffc.xyz"
+        }
+    ]
+}
